@@ -8,29 +8,51 @@
 
     <style>
         body{
-            background-color: rgb(201, 197, 231);
+            background-color: rgb(126, 207, 231);
+            background-image: url('Images/Food.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         h1{
             font-size:80px;
+            color:#333;
         }
         ul{
-            font-size:40px;
+            font-size:45px;
+            list-style-type: none;
         }
 
         img{
             width: 900px;
             height: auto;
+            border: solid white 6px;
+            border-radius: 200px;
+
         }
         
+        .container{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: rgb(231, 212, 147);
+            border: solid white 2px;
+            border-radius: 200px;
+            width: 40%;
+            margin: 0 auto;
+        }
+
     </style>
 
 </head>
 
 <body>
-   
+
+   <div class="container">
     <h1>Recipes</h1>
 
-    <img src="Images/Food.jpg" alt="Bunch of foods">
+    <!-- <img src="Images/Food.jpg" alt="Bunch of foods"> -->
     
     <ul>
         <li>
@@ -48,7 +70,7 @@
 
     </ul>
 
-    
+</div>
 
 </body>
 </html>
